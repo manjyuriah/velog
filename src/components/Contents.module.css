@@ -1,0 +1,114 @@
+.contentsBox{
+    display: flex;
+    margin: -1rem;
+    flex-wrap: wrap;
+}
+.content{
+    position: relative;
+    width: 320px;
+    height: 377px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 4%) 0px 4px 16px 0px;
+    margin: 1rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    transition: box-shadow 0.25s ease-in 0s, transform 0.25s ease-in 0s;
+}
+.content:hover{
+    box-shadow:rgb(0 0 0 / 10%) 0px 15px 15px 0px;
+    transform: translate(0px, -5px);
+}
+/*Card*/
+.thumnails{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    height: 167px;
+}
+.thumnails img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    cursor: pointer;
+}
+.contentMain{
+    padding: 1rem;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    height: 165px;
+}
+.contentInfo{
+    cursor: pointer;
+}
+.title{
+    font-size: 1rem;
+    margin: 0px 0px 0.25rem;
+    line-height: 1.5;
+    word-break: break-word;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.subject{
+    margin: 0px 0px 1.5rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    height: 3.9375rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color:#495057;
+}
+.subData{
+    font-size: 0.75rem;
+    line-height: 1.5;
+    color:#868E96;
+}
+.subData span,.subData span div{
+    display: inline-block;
+}
+.contentWriter{
+    box-sizing: border-box;
+    padding: 0.625rem 1rem;
+    border-top: 1px solid #F1F3F5;
+    display: flex;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
+    justify-content: space-between;
+    height: 45px;
+}
+.contentWriter a{
+    cursor: pointer;
+    color: #868E96;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.contentWriter a img{
+    object-fit: cover;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    margin-right: 0.5rem;
+    display: inline-block;
+}
+.contentWriter a span div{
+    display: inline-block;
+}
+.contentWriter a span b{
+    color: #212529;
+    font-weight: bold;
+}
+.likes{
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-right: 0.5rem;
+}

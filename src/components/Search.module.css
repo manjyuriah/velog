@@ -1,0 +1,26 @@
+.seachBox{
+    width:768px;
+    height: 64px;
+    border:1px solid #ADB5BD;
+    display: flex;
+    align-items: center;
+    transition: all 0.125s ease-in 0s;
+    cursor: text;
+    height: 4rem;
+    padding: 0px 1.5rem;
+    margin-top: 1.5rem;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 1.25rem;
+}
+.search{
+    width: 674px;
+    height: 32px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #495057;
+}

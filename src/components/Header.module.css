@@ -1,0 +1,60 @@
+.header{
+    position: relative;
+    width: 1376px;
+    height: 4rem;
+    color: #212529;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.home {
+    font-family: 'Fira Mono', monospace;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 28px;
+}
+.rightMenu{
+    width: 172px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+.icon:hover{
+    background: #f0f1f1;
+}
+.night{
+    display: none;
+}
+.loginBtn{
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 2rem;
+    line-height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    word-break: keep-all;
+    background-color:#212529;
+    color: #fff;
+    transition: all 0.125s ease-in 0s;
+    cursor: pointer;
+    display: inline-block;
+}
